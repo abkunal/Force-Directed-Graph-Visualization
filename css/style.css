@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+line {
+  stroke: #fff;
+  stroke-opacity: 0.6;
+}
+
+.nodes {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.tooltip,
+#main,
+.flag {
+  position: absolute;
+}
+
+.tooltip {
+  display: none;
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+#main {
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  background: #333;
+}
